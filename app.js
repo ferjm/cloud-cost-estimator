@@ -1,8 +1,8 @@
 'use strict';
 
-const bodySize = 0.33; // Kb
-const requestHeaderSize = 20.33; // Kb
-const responseHeaderSize = 22.09; // Kb
+const bodySize = 0.4; // Kb
+const requestHeaderSize = 0.55; // Kb
+const responseHeaderSize = 2.29; // Kb
 
 const observationStorageSize = 0.24; // Kb
 
