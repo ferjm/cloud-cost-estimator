@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <meta charset="utf-8">
+  <script src="app.js"></script>
+  <title>SensorWeb cloud service estimation tool</title>
+</head>
+<body role="application">
+  <div>
+    <form>
+      <p>
+        <label>Number of sensor stations</label>
+        <input type="number" id="number-sensor-stations" placeholder="10000" value="10000">
+      </p>
+      <p>
+        <label>Observations frequency (in seconds)</label>
+        <input type="number" id="observations-frequency" placeholder="60" value="60">
+      </p>
+      <p>
+        <label>Cloud refresh frequency (in seconds)</label>
+        <input type="number" id="cloud-frequency" placeholder="3600" value="3600">
+      </p>
+      <p>
+        <button id="go-button">Go</button>
+        <input type="reset" value="Reset"></input>
+      </p>
+    </form>
+  </div>
+
+  <div id="results" hidden></div>
+</body>
+</html>
+
